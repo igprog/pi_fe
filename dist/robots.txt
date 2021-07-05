@@ -1,0 +1,2 @@
+Sitemap: https://www.plan-ishrane.com/sitemap.xml
+User-agent: *
