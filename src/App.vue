@@ -20,8 +20,9 @@
       </div>
     </div>-->
 
-    <footer class="container-fluid text-center py-3">
-      <div ng-cloak>
+    <footer class="container-fluid py-3">
+      <div ng-cloak class="text-center">
+        <hr />
         <span class="small"
           >Copyright © {{ year }}
           <a href="https://www.igprog.hr" title="igprog.hr">IG PROG</a></span
