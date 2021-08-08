@@ -89,6 +89,12 @@
 <script>
 import { mixin } from "../mixins/mixin.js";
 export default {
+    metaInfo: {
+    titleTemplate: '%s | Cene',
+    meta: [
+      { name: 'description', content: 'Cene godišnje i dvogodišnje pretplate za Start, Standard i Premium paket.' }
+    ]
+  },
   mixins: [mixin],
   components: {},
   data() {

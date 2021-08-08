@@ -372,6 +372,12 @@
 import card from "../components/card.vue";
 import { mixin } from "../mixins/mixin.js";
 export default {
+  metaInfo: {
+    titleTemplate: '%s | Aplikacija za nutricioniste',
+    meta: [
+      { name: 'description', content: 'Izradite plan ishrane uz pomoć veb aplikacije. Registrujte se i isprobajte besplatu DEMO verziju.' }
+    ]
+  },
   mixins: [mixin],
   components: {
     card,

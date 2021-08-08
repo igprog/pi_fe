@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import Vue from "vue";
+// import Vue from "vue";
 require("@/assets/styles/main.css");
 // require("@/assets/styles/custom.scss");
 import navbar from "./components/navbar.vue";
@@ -42,6 +42,12 @@ import { mixin } from "./mixins/mixin.js";
 export default {
   mixins: [mixin],
   name: "App",
+  metaInfo: {
+    title: "Plan Ishrane",
+    htmlAttrs: {
+      lang: 'sr'
+    }
+  },
   components: {
     navbar,
     sidebar,

@@ -122,6 +122,12 @@ import loading from "../components/loading.vue";
 import { mixin } from "../mixins/mixin.js";
 import axios from "axios";
 export default {
+  metaInfo: {
+    titleTemplate: '%s | Kontakt',
+    meta: [
+      { name: 'description', content: 'Za sva pitanja u vezi aplikacije kontaktirajte nas putem telefona ili emaila ili ispunite formu za kontakt.' }
+    ]
+  },
   mixins: [mixin],
   components: {
     json,

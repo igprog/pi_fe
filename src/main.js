@@ -30,6 +30,9 @@ Vue.component('icon', Icon)
 import resource from 'vue-resource';
 Vue.use(resource);
 
+import VueMeta from 'vue-meta'
+Vue.use(VueMeta)
+
 Vue.config.productionTip = false
 
 Vue.prototype.$globalVariable = 'global var';  // Test globaln a varijabla
