@@ -14,10 +14,10 @@
           <h1>PLAN ISHRANE <em class="small">Online</em></h1>
           <p class="lead">Veb aplikacija za nutricioniste</p>
           <hr class="my-4" />
-          <p class="text-justify">
+          <h2 class="text-justify h5">
             Već više od 13 godina najpopularnije programsko rešenje za izradu
             uravnoteženih jelovnika u regionu.
-          </p>
+          </h2>
           <div class="row">
             <div class="col-sm-6">
               <a
