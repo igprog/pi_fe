@@ -11,8 +11,8 @@
           />
         </div>
         <div class="col-lg-6 pt-5">
-          <h1>PLAN ISHRANE <em class="small">Online</em></h1>
-          <p class="lead">Veb aplikacija za nutricioniste</p>
+          <h1>Program Ishrane <em class="small">Veb</em></h1>
+          <p class="lead">Programsko rešenje za nutricioniste</p>
           <hr class="my-4" />
           <h2 class="text-justify h5">
             Već više od 13 godina najpopularnije programsko rešenje za izradu
@@ -110,25 +110,26 @@
           <h2>O Programu</h2>
         </div>
         <p class="text-justify">
-          Veb aplikacija
+          <strong>Program Ishrane Veb</strong>
           <a
             href="https://www.programprehrane.com/app"
             title="www.programprehrane.com/app"
-            ><em>Program Ishrane Veb</em></a
-          >
-          ili u originalu <em>Program Prehrane Web</em>, softversko je rešenje
-          za izradu uravnoteženih jelovnika. Aplikacija je namenjena prvenstveno
-          nutricionistima, ali zbog svoje jednostavnosti i pristupačne cene
-          koriste ga i mnogi pojedinci koji vode računa o zdravoj i
-          uravnoteženoj ishrani. Izrada jelovnika pomoću ove aplikacije bazira
-          se na preporučenom broju jediničnih serviranja svih skupina namirnica
-          te njihovih energetskih, makro i mikronutiritivnih vrednost kako bi
+            class="text-muted"
+            ><em>(Program Prehrane Web)</em></a
+          > je softversko
+          rešenje koje omogućava brzu i jednostavnu izradu uravnoteženih
+          jelovnika. Izrada jelovnika pomoću ove aplikacije bazira se na
+          preporučenom broju jediničnih serviranja svih skupina namirnica te
+          njihovih energetskih, makro i mikronutiritivnih vrednosti kako bi
           jelovnik bio uravnotežen i raznolik. Aplikacija ima bazu od preko 700
-          namirnica i pristup USDA bazi namirnica. Također korisnicim je
-          omogućeno da sami unose svoje namirnice i recepte. Program je dostupan
-          na Srpskom (latinica i čirilica), Hrvatskom i Bosanskom jeziku. Za
-          pokretanje aplikacije nije potrebna nikakva instalacija već je
-          dovoljno samo da se
+          namirnica i pristup USDA bazi namirnica. Također korisnicima je
+          omogućeno da sami unose svoje namirnice i recepte.
+          <em>Program Ishrane Veb</em> je namenjen prvenstveno nutricionistima,
+          ali zbog svoje jednostavnosti i pristupačne cene koriste ga i mnogi
+          pojedinci koji vode računa o zdravoj i uravnoteženoj ishrani. Program
+          je dostupan na srpskom (latinica/čirilica), hrvatskom, bosanskom i engleskom
+          jeziku. <br /> Za pokretanje aplikacije nije potrebna nikakva instalacija već
+          je samo dovoljno da se
           <a
             href="https://www.programprehrane.com/registracija"
             title="registracija"
@@ -373,10 +374,14 @@ import card from "../components/card.vue";
 import { mixin } from "../mixins/mixin.js";
 export default {
   metaInfo: {
-    titleTemplate: '%s | Aplikacija za nutricioniste',
+    titleTemplate: "%s | Aplikacija za nutricioniste",
     meta: [
-      { name: 'description', content: 'Izradite plan ishrane uz pomoć veb aplikacije. Registrujte se i isprobajte besplatu DEMO verziju.' }
-    ]
+      {
+        name: "description",
+        content:
+          "Izradite plan ishrane uz pomoć veb aplikacije. Registrujte se i isprobajte besplatu DEMO verziju.",
+      },
+    ],
   },
   mixins: [mixin],
   components: {
