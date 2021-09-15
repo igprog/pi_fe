@@ -1,42 +1,25 @@
 <template>
   <div>
     <div class="container">
-      <div class="row justify-content-md-center">
-        <div class="col-lg-6 pt-5 text-center">
-          <img
-            src="../assets/img/ppweb_mockup.png"
-            class="img-fluid"
-            style="max-height: 70%"
-            alt="veb aplikacija program ishrane"
-          />
-        </div>
-        <div class="col-lg-6 pt-5">
-          <h1>Program Ishrane <em class="small">Veb</em></h1>
-          <p class="lead">Programsko rešenje za nutricioniste</p>
-          <hr class="my-4" />
-          <h2 class="text-justify h5">
-            Već više od 13 godina najpopularnije programsko rešenje za izradu
-            uravnoteženih jelovnika u regionu.
-          </h2>
-          <div class="row">
-            <div class="col-sm-6">
-              <a
-                class="btn btn-outline-secondary btn-block btn-lg m-1"
-                href="https://www.programprehrane.com/app"
-                role="button"
-                title="Ulaz za korisnike"
-                ><icon name="user" scale="2"></icon> Ulaz za korisnike</a
-              >
-            </div>
-            <div class="col-sm-6">
-              <a
-                class="btn btn-secondary btn-block btn-lg m-1"
-                href="https://www.programprehrane.com/registracija"
-                role="button"
-                title="Postani korisnik"
-                ><icon name="user-plus" scale="2"></icon> Postani korisnik</a
-              >
-            </div>
+      <div class="row justify-content-md-center pt-5">
+        <div class="row">
+          <div class="col-sm-6">
+            <a
+              class="btn btn-outline-secondary btn-block btn-lg m-1"
+              href="https://www.programprehrane.com/app"
+              role="button"
+              title="Ulaz za korisnike"
+              ><icon name="user" scale="2"></icon> Ulaz za korisnike</a
+            >
+          </div>
+          <div class="col-sm-6">
+            <a
+              class="btn btn-secondary btn-block btn-lg m-1"
+              href="https://www.programprehrane.com/registracija"
+              role="button"
+              title="Postani korisnik"
+              ><icon name="user-plus" scale="2"></icon> Postani korisnik</a
+            >
           </div>
         </div>
       </div>
@@ -107,7 +90,15 @@
       <div class="container pt-2">
         <hr />
         <div class="text-center pt-4">
-          <h2>O Programu</h2>
+          <div class="my-2">
+            <img
+              src="../assets/img/ppweb_mockup.png"
+              class="img-fluid"
+              style="max-height: 50%"
+              alt="veb aplikacija program ishrane"
+            />
+          </div>
+          <h2 class="mt-3">O Programu</h2>
         </div>
         <p class="text-justify">
           <strong>Program Ishrane Veb</strong>
@@ -116,20 +107,21 @@
             title="www.programprehrane.com/app"
             class="text-muted"
             ><em>(Program Prehrane Web)</em></a
-          > je softversko
-          rešenje koje omogućava brzu i jednostavnu izradu uravnoteženih
-          jelovnika. Izrada jelovnika pomoću ove aplikacije bazira se na
-          preporučenom broju jediničnih serviranja svih skupina namirnica te
-          njihovih energetskih, makro i mikronutiritivnih vrednosti kako bi
+          >
+          je softversko rešenje koje omogućava brzu i jednostavnu izradu
+          uravnoteženih jelovnika. Izrada jelovnika pomoću ove aplikacije bazira
+          se na preporučenom broju jediničnih serviranja svih skupina namirnica
+          te njihovih energetskih, makro i mikronutiritivnih vrednosti kako bi
           jelovnik bio uravnotežen i raznolik. Aplikacija ima bazu od preko 700
           namirnica i pristup USDA bazi namirnica. Također korisnicima je
           omogućeno da sami unose svoje namirnice i recepte.
           <em>Program Ishrane Veb</em> je namenjen prvenstveno nutricionistima,
           ali zbog svoje jednostavnosti i pristupačne cene koriste ga i mnogi
           pojedinci koji vode računa o zdravoj i uravnoteženoj ishrani. Program
-          je dostupan na srpskom (latinica/čirilica), hrvatskom, bosanskom i engleskom
-          jeziku. <br /> Za pokretanje aplikacije nije potrebna nikakva instalacija već
-          je samo dovoljno da se
+          je dostupan na srpskom (latinica/čirilica), hrvatskom, bosanskom i
+          engleskom jeziku. <br />
+          Za pokretanje aplikacije nije potrebna nikakva instalacija već je samo
+          dovoljno da se
           <a
             href="https://www.programprehrane.com/registracija"
             title="registracija"

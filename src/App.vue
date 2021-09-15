@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <navbar />
+    <c-header />
     <!-- <div class="text-center">
         <h1>{{ $route.name }}</h1>
       </div> -->
@@ -21,7 +22,7 @@
     </div>-->
 
     <footer class="container-fluid py-3">
-      <div ng-cloak class="text-center">
+      <div class="text-center">
         <hr />
         <span class="small"
           >Copyright © {{ year }}
@@ -37,6 +38,7 @@
 require("@/assets/styles/main.css");
 // require("@/assets/styles/custom.scss");
 import navbar from "./components/navbar.vue";
+import cHeader from "./components/cHeader.vue";
 import sidebar from "./components/sidebar.vue";
 import { mixin } from "./mixins/mixin.js";
 export default {
@@ -50,6 +52,7 @@ export default {
   },
   components: {
     navbar,
+    cHeader,
     sidebar,
   },
   data() {
