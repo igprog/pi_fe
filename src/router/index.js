@@ -6,7 +6,8 @@ import services from '@/pages/services'
 import test from '@/pages/test'
 import prices from '@/pages/prices'
 import contact from '@/pages/contact'
-import login from '@/pages/login'
+import cookies from '@/pages/cookies'
+// import login from '@/pages/login'
 
 Vue.use(Router)
 
@@ -37,6 +38,11 @@ export default new Router({
       path: '/kontakt',
       name: 'Koktakt',
       component: contact
+    },
+    {
+      path: '/uslovi-koriscenja-kolacica',
+      name: 'Uslovi korišćenja kolačića',
+      component: cookies
     },
     // {
     //   path: '/login',

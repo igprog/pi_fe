@@ -30,6 +30,12 @@
         >
       </div>
     </footer>
+    <cookie-law buttonText="Prihvati i zatvori" buttonClass="btn btn-secondary">
+      <div slot="message">
+        Naš sajt koristi kolačiće. Za više informacija
+        <router-link to="/uslovi-koriscenja-kolacica">klikni ovde</router-link>.
+      </div>
+    </cookie-law>
   </div>
 </template>
 
@@ -40,6 +46,7 @@ require("@/assets/styles/main.css");
 import navbar from "./components/navbar.vue";
 import cHeader from "./components/cHeader.vue";
 import sidebar from "./components/sidebar.vue";
+import CookieLaw from "vue-cookie-law";
 import { mixin } from "./mixins/mixin.js";
 export default {
   mixins: [mixin],
@@ -54,6 +61,7 @@ export default {
     navbar,
     cHeader,
     sidebar,
+    CookieLaw
   },
   data() {
     return {
