@@ -33,4 +33,53 @@
     width: 100%;
     padding: 20px;
   }
+p {
+    font-size: 1.1em;
+}
+/*********** Sidenav ************/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(44, 44, 44);
+    opacity: .95;
+    overflow-x: hidden;
+    transition: .5s;
+    padding-top: 80px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color:#fff;
+    font-size: 1.3em;
+    font-weight: 1000;
+    text-decoration: none;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 65px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+  }
+
+  .closebtn:hover {
+    font-size: 46px !important;
+    top: 55px;
+    font-weight: 1000;
+  }
+  /*********** Sidenav ************/
 
