@@ -82,6 +82,9 @@
           </div>
         </div>
       </div>
+      <div>
+        <p>Više informacija o pojedinim paketima pogledajte na našoj veb stranici: <a href="https://www.programprehrane.com/cijene" title="www.programprehrane.com/cijene">www.programprehrane.com/cijene</a></p>
+      </div>
     </div>
   </div>
 </template>

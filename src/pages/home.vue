@@ -130,8 +130,9 @@
           besplatni. U <em>DEMO</em> verziji možete da isprobate većinu
           funkcionalnosti aplikacije.
         </p>
+        <p>Cene pojedinih paketa pogledajte <a href="/cene" title="www.plan-ishrane.com/cene">ovde</a>.</p>
         <div class="pt-3">
-          <h4>Osnovne funkcije programa:</h4>
+          <h2>Osnovne funkcije programa:</h2>
           <card
             img="program/plan_ishrane_1.png"
             title="Praćenje antorpometijskih parametara"
