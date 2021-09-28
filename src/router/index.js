@@ -40,8 +40,8 @@ export default new Router({
       component: contact
     },
     {
-      path: '/uslovi-koriscenja-kolacica',
-      name: 'Uslovi korišćenja kolačića',
+      path: '/izjava-o-kolacicima',
+      name: 'Izjava o kolačićima',
       component: cookies
     },
     // {

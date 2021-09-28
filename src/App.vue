@@ -33,7 +33,7 @@
     <cookie-law buttonText="Prihvati i zatvori" buttonClass="btn btn-secondary">
       <div slot="message">
         Naš sajt koristi kolačiće. Za više informacija
-        <router-link to="/uslovi-koriscenja-kolacica">klikni ovde</router-link>.
+        <router-link to="/izjava-o-kolacicima">klikni ovde</router-link>.
       </div>
     </cookie-law>
   </div>
