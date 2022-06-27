@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <div class="row justify-content-md-center pt-5">
+      <div class="row justify-content-md-center pt-4">
         <div class="row">
           <div class="col-sm-6">
             <a
@@ -26,7 +26,7 @@
     </div>
     <hr />
     <div>
-      <div class="container text-center">
+      <div class="container text-center text-main">
         <div class="row p-2">
           <div class="col-sm-3 p-2">
             <icon name="calculator" scale="3"></icon>
@@ -76,7 +76,7 @@
             <icon name="mobile" scale="3"></icon>
             <h2 class="lead">Klijent App</h2>
             <h3 class="small">
-              Omogućite svojim pacijentima da putem aplikacije sami prate svoje
+              Omogućite svojim klijentima da putem aplikacije sami prate svoje
               mere i preuzimaju jelovnike
             </h3>
           </div>
@@ -108,14 +108,14 @@
             class="text-muted"
             ><em>(Program Prehrane Web)</em></a
           >
-          je softversko rešenje koje omogućava brzu i jednostavnu izradu
+          je online aplikacija koje omogućava brzu i jednostavnu izradu
           uravnoteženih jelovnika. Izrada jelovnika pomoću ove aplikacije bazira
           se na preporučenom broju jediničnih serviranja svih skupina namirnica
           te njihovih energetskih, makro i mikronutiritivnih vrednosti kako bi
           jelovnik bio uravnotežen i raznolik. Aplikacija ima bazu od preko 700
-          namirnica i pristup USDA bazi namirnica. Također korisnicima je
-          omogućeno da sami unose svoje namirnice i recepte.
-          <em>Program Ishrane Veb</em> je namenjen prvenstveno nutricionistima,
+          namirnica i pristup USDA bazi namirnica. Također korisnici mogu sami da unose svoje namirnice i recepte 
+          i razmenjuju recepte sa drugim korisnicima aplikacije.<br/>
+          <em>Program Ishrane Veb</em> je namenjen nutricionistima,
           ali zbog svoje jednostavnosti i pristupačne cene koriste ga i mnogi
           pojedinci koji vode računa o zdravoj i uravnoteženoj ishrani. Program
           je dostupan na srpskom (latinica/čirilica), hrvatskom, bosanskom i
@@ -164,7 +164,7 @@
           <card
             img="program/plan_ishrane_6.png"
             title="Izrada recepata"
-            desc="Izrada recepata koje kasnije možete da koristite u različitim jelovnicima. Razmena recepata sa drugim korisnicima aplikacije olakšavam izradu jelovnika i ćini jelovnike za Vaše klijente raznolikijima."
+            desc="Izrada recepata koje kasnije možete da koristite u različitim jelovnicima. Recepte možete da razmenjujete sa drugim korisnicima aplikacije čime olakšavate izradu vaših jelovnika i činite ih raznolikijima."
           />
         </div>
         <div class="mt-5">
