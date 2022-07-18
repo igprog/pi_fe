@@ -7,7 +7,7 @@
               Program Ishrane Veb
             </h1>
           <h2 class="font-weight-bold text-white display-5">
-            <em>Aplikacija za izradu uravnoteženih jelovnika</em>
+            Aplikacija za izradu uravnoteženih jelovnika
           </h2>
         </div>
       </div>

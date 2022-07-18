@@ -9,8 +9,8 @@
               <h4 class="my-0 font-weight-normal">START</h4>
             </div>
             <div class="card-body">
-              <h3><b>74.32 € </b><small class="text-muted">1/god</small></h3>
-              <h5><b>118.92 € </b><small class="text-muted">2/god</small></h5>
+              <h3><b>73.00 € </b><small class="text-muted">1/god</small></h3>
+              <h5><b>116.80 € </b><small class="text-muted">2/god</small></h5>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>1 korisnik</li>
                 <li>Broj klijenata: 5/mesečno</li>
@@ -35,8 +35,8 @@
               <h4 class="my-0 font-weight-normal">STANDARD</h4>
             </div>
             <div class="card-body">
-              <h3><b>128.38 € </b><small class="text-muted">1/god</small></h3>
-              <h5><b>205.41 € </b><small class="text-muted">2/god</small></h5>
+              <h3><b>126.09 € </b><small class="text-muted">1/god</small></h3>
+              <h5><b>201.74 € </b><small class="text-muted">2/god</small></h5>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>2 korisnika</li>
                 <li>Broj klijenata: 20/mesečno</li>
@@ -61,8 +61,8 @@
               <h4 class="my-0 font-weight-normal">PREMIUM</h4>
             </div>
             <div class="card-body">
-              <h3><b>250.00 € </b><small class="text-muted">1/god</small></h3>
-              <h5><b>400.00 € </b><small class="text-muted">2/god</small></h5>
+              <h3><b>245.54 € </b><small class="text-muted">1/god</small></h3>
+              <h5><b>392.86 € </b><small class="text-muted">2/god</small></h5>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>5+ korisnika</li>
                 <li>Broj klijenata: neograničeno</li>
